@@ -1,16 +1,37 @@
-# React + Vite
+# Front-Yadino
+<div align="center">
+  <h1>✨ Yadino Front-End</h1>
+  <p><strong>Plan • Organize • Achieve</strong></p>
+  <p>A modern, open-source task & project management platform for individuals and teams.</p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Currently, two official plugins are available:
+## 📌 Overview
+**Yadino** is more than just a simple todo list. It is an end-to-end task and project management workspace featuring dynamic kanban workflows, daily task planners, calendars, and productivity metrics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Key Features
+- **Public Landing Page:** Overview of platform features, community links, and value propositions.
+- **Authentication:** Seamless Sign In / Sign Up flows with validation and social auth buttons.
+- **Dashboard:** At-a-glance task metrics (Total, Completed, In Progress, Overdue) and completion charts.
+- **Task Management:** Filterable task lists (Today, Upcoming, Completed) with priority indicators.
+- **Kanban Board:** Multi-column project board (To Do, In Progress, Done) for agile tracking.
+- **Responsive & Themed:** Full responsiveness across all devices with Dark & Light theme support.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
+- **Library/Framework:** React.js
+- **Styling:** CSS3 / Tailwind CSS
+- **Icons:** Lucide Icons
+- **Typography:** Inter
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 💻 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/Code-Base-Work-Space/Yadino-Front.git](https://github.com/Code-Base-Work-Space/Yadino-Front.git)
+cd Yadino-Front
