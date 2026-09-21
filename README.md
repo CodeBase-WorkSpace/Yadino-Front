@@ -1,4 +1,3 @@
-# Front-Yadino
 <div align="center">
   <h1>✨ Yadino Front-End</h1>
   <p><strong>Plan • Organize • Achieve</strong></p>
