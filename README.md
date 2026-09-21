@@ -9,7 +9,6 @@
 ## 📌 Overview
 **Yadino** is more than just a simple todo list. It is an end-to-end task and project management workspace featuring dynamic kanban workflows, daily task planners, calendars, and productivity metrics.
 
----
 
 ## 🚀 Key Features
 - **Public Landing Page:** Overview of platform features, community links, and value propositions.
@@ -19,7 +18,7 @@
 - **Kanban Board:** Multi-column project board (To Do, In Progress, Done) for agile tracking.
 - **Responsive & Themed:** Full responsiveness across all devices with Dark & Light theme support.
 
----
+
 
 ## 🛠️ Tech Stack
 - **Library/Framework:** React.js
@@ -27,7 +26,6 @@
 - **Icons:** Lucide Icons
 - **Typography:** Inter
 
----
 
 ## 💻 Getting Started
 
