@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yadino - Plan. Organize. Achieve.</title>
+  <!-- Google Fonts: Plus Jakarta Sans & Caveat for doodles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        </div>
+        <span>Yadino</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#community">Community</a>
+        <a href="#docs">Docs</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="search-box" id="searchTrigger">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" placeholder="Search..." readonly>
+          <kbd>Ctrl + K</kbd>
+        </div>
+        <button class="btn btn-text">Login</button>
+        <button class="btn btn-primary">Get Started</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="badge-pill">
+          <span class="icon">✨</span>
+          <span class="text">Open Source Project</span>
+          <span class="subtext">Built for developers, by developers ↗</span>
+        </div>
+
+        <h1 class="hero-title">
+          Plan. Organize.<br>
+          <span class="gradient-text">Achieve.</span>
+        </h1>
+
+        <p class="hero-description">
+          Yadino is an open source productivity platform that helps you manage your tasks, projects and collaborate with your team — all in one place.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary btn-lg">
+            Get Started Free
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <button class="btn btn-secondary btn-lg" id="viewDemoBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            View Demo
+          </button>
+        </div>
+
+        <div class="hero-features-list">
+          <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Open Source</span>
+          <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Free Forever</span>
+          <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Active Community</span>
+        </div>
+      </div>
+
+      <!-- Hero Interactive Mockup -->
+      <div class="hero-visual">
+        <div class="hand-doodle doodle-top">
+          Manage your<br>tasks, projects<br>and team
+          <svg class="doodle-arrow" width="40" height="40" viewBox="0 0 50 50">
+            <path d="M10,10 C25,15 35,30 30,45" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="dashboard-window">
+          <!-- Sidebar Mock -->
+          <div class="mock-sidebar">
+            <div class="mock-brand">
+              <div class="mini-logo">✓</div>
+              <span>Yadino</span>
+            </div>
+            <ul class="sidebar-menu">
+              <li><span class="icon">🏠</span> Dashboard</li>
+              <li class="active"><span class="icon">📋</span> Tasks</li>
+              <li><span class="icon">📁</span> Projects</li>
+              <li><span class="icon">📅</span> Calendar</li>
+              <li><span class="icon">📊</span> Analytics</li>
+              <li><span class="icon">🔔</span> Notifications</li>
+            </ul>
+            <div class="sidebar-workspace">
+              <span class="label">WORKSPACE</span>
+              <div class="workspace-select">💼 My Workspace ▾</div>
+            </div>
+            <div class="sidebar-user">
+              <div class="avatar">M</div>
+              <div class="user-meta">
+                <strong>Masoumeh</strong>
+                <small>Frontend Developer</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Dashboard Mock Area -->
+          <div class="mock-body">
+            <div class="mock-header">
+              <div class="mock-search">🔍 Search...</div>
+              <div class="mock-profile-greeting">
+                <h2>Good morning, Masoumeh 👋</h2>
+                <p>Here's what's happening with your tasks today.</p>
+              </div>
+            </div>
+
+            <div class="mock-stats-grid">
+              <div class="stat-pill">
+                <span class="title">Total Tasks</span>
+                <div class="val">42 <span class="badge positive">+12%</span></div>
+              </div>
+              <div class="stat-pill">
+                <span class="title">Completed</span>
+                <div class="val">28 <span class="badge positive">+8%</span></div>
+              </div>
+              <div class="stat-pill">
+                <span class="title">In Progress</span>
+                <div class="val">9 <span class="badge neutral">+3%</span></div>
+              </div>
+              <div class="stat-pill">
+                <span class="title">Overdue</span>
+                <div class="val">5 <span class="badge negative">-2%</span></div>
+              </div>
+            </div>
+
+            <div class="mock-widgets-row">
+              <!-- Task List Widget -->
+              <div class="widget tasks-widget">
+                <div class="widget-header">
+                  <h3>Today's Tasks</h3>
+                  <a href="#">View all →</a>
+                </div>
+                <div class="task-items-list" id="interactiveTaskList">
+                  <div class="task-row">
+                    <input type="checkbox" id="task1" checked>
+                    <label for="task1">Design Dashboard UI</label>
+                    <span class="tag tag-design">Design</span>
+                    <span class="due">Today</span>
+                  </div>
+                  <div class="task-row">
+                    <input type="checkbox" id="task2">
+                    <label for="task2">Write API tests</label>
+                    <span class="tag tag-backend">Backend</span>
+                    <span class="due">Today</span>
+                  </div>
+                  <div class="task-row">
+                    <input type="checkbox" id="task3">
+                    <label for="task3">Update documentation</label>
+                    <span class="tag tag-docs">Docs</span>
+                    <span class="due">Tomorrow</span>
+                  </div>
+                  <div class="task-row">
+                    <input type="checkbox" id="task4">
+                    <label for="task4">Fix Responsive issue</label>
+                    <span class="tag tag-frontend">Frontend</span>
+                    <span class="due">Sep 16</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Completion Donut Chart Mock -->
+              <div class="widget completion-widget">
+                <h3>Task Completion</h3>
+                <div class="donut-chart-container">
+                  <div class="donut-center">
+                    <span class="percent">67%</span>
+                  </div>
+                </div>
+                <div class="legend-list">
+                  <div><span class="dot done"></span> Completed <strong>28</strong></div>
+                  <div><span class="dot prog"></span> In Progress <strong>9</strong></div>
+                  <div><span class="dot over"></span> Overdue <strong>5</strong></div>
+                </div>
+              </div>
+
+              <!-- Recent Projects Widget -->
+              <div class="widget projects-widget">
+                <h3>Recent Projects</h3>
+                <div class="proj-item">
+                  <span class="proj-icon p-purple">Y</span>
+                  <div class="p-info">
+                    <strong>Yadino</strong>
+                    <div class="prog-bar"><div class="fill" style="width: 72%"></div></div>
+                  </div>
+                  <span class="pct">72%</span>
+                </div>
+                <div class="proj-item">
+                  <span class="proj-icon p-green">P</span>
+                  <div class="p-info">
+                    <strong>Portfolio</strong>
+                    <div class="prog-bar"><div class="fill" style="width: 40%"></div></div>
+                  </div>
+                  <span class="pct">40%</span>
+                </div>
+                <div class="proj-item">
+                  <span class="proj-icon p-orange">E</span>
+                  <div class="p-info">
+                    <strong>E-commerce</strong>
+                    <div class="prog-bar"><div class="fill" style="width: 20%"></div></div>
+                  </div>
+                  <span class="pct">20%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Toast -->
+        <div class="floating-toast">
+          <div class="toast-avatar">👤</div>
+          <div class="toast-text">
+            <strong>Task assigned to you</strong>
+            <span>Design login page · Today, 10:00 AM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section" id="features">
+    <div class="container text-center">
+      <div class="badge-pill outline">Why Yadino?</div>
+      <h2 class="section-title">Everything you need to stay productive</h2>
+      <p class="section-subtitle">
+        From personal tasks to team projects, Yadino has everything you need to stay organized and get things done.
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="f-icon bg-purple">📝</div>
+          <h3>Task Management</h3>
+          <p>Create, organize and track your tasks with ease.</p>
+        </div>
+        <div class="feature-card">
+          <div class="f-icon bg-green">👥</div>
+          <h3>Project Management</h3>
+          <p>Manage your projects and milestones.</p>
+        </div>
+        <div class="feature-card">
+          <div class="f-icon bg-pink">🤝</div>
+          <h3>Team Collaboration</h3>
+          <p>Work together, share updates and achieve more.</p>
+        </div>
+        <div class="feature-card">
+          <div class="f-icon bg-blue">📅</div>
+          <h3>Calendar View</h3>
+          <p>See your schedule and never miss a deadline.</p>
+        </div>
+        <div class="feature-card">
+          <div class="f-icon bg-orange">📊</div>
+          <h3>Analytics & Insights</h3>
+          <p>Track your progress and boost productivity.</p>
+        </div>
+        <div class="feature-card" id="darkModeCard">
+          <div class="f-icon bg-indigo">🌙</div>
+          <h3>Dark Mode</h3>
+          <p>Switch to dark mode for a better experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Multi-device / Built for Teams Section -->
+  <section class="showcase-section">
+    <div class="container showcase-grid">
+      <div class="showcase-text">
+        <div class="badge-pill purple-light">Simple. Powerful. Open Source.</div>
+        <h2 class="section-title">Built for individuals and teams</h2>
+        <p class="section-subtitle">
+          Whether you're managing your personal goals or working on a big team project, Yadino adapts to your workflow and helps you stay on track.
+        </p>
+        <ul class="styled-checks">
+          <li><span class="chk">✓</span> Beautiful & intuitive interface</li>
+          <li><span class="chk">✓</span> Fully responsive on all devices</li>
+          <li><span class="chk">✓</span> Flexible and customizable</li>
+          <li><span class="chk">✓</span> Open source and community driven</li>
+        </ul>
+        <button class="btn btn-primary btn-lg">Explore Features →</button>
+      </div>
+
+      <div class="showcase-visual">
+        <div class="hand-doodle doodle-right">Work smarter,<br>not harder ✨</div>
+        <div class="device-laptop">
+          <div class="kanban-mock">
+            <div class="col">
+              <h4>To Do</h4>
+              <div class="kanban-card"></div>
+              <div class="kanban-card"></div>
+            </div>
+            <div class="col">
+              <h4>In Progress</h4>
+              <div class="kanban-card active"></div>
+            </div>
+            <div class="col">
+              <h4>Done</h4>
+              <div class="kanban-card done"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="device-phone">
+          <div class="phone-screen">
+            <div class="phone-header">Yadino Mobile</div>
+            <div class="phone-card"></div>
+            <div class="phone-card"></div>
+            <button class="phone-btn">+ Add Task</button>
+          </div>
+        </div>
+
+        <div class="floating-widget quick-actions">
+          <strong>⚡ Quick Actions</strong>
+          <button>+ New Task</button>
+          <button>+ New Project</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats & Community Section -->
+  <section class="community-stats" id="community">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-title">Join a growing community</h2>
+        <p class="section-subtitle">Thousands of developers and teams are already using Yadino.</p>
+      </div>
+
+      <div class="stats-bar">
+        <div class="stat-unit">
+          <span class="s-icon">👥</span>
+          <div><h3>10K+</h3><p>Active Users</p></div>
+        </div>
+        <div class="stat-unit">
+          <span class="s-icon">📁</span>
+          <div><h3>2K+</h3><p>Projects Created</p></div>
+        </div>
+        <div class="stat-unit">
+          <span class="s-icon">✅</span>
+          <div><h3>5K+</h3><p>Tasks Completed</p></div>
+        </div>
+        <div class="stat-unit">
+          <span class="s-icon">💖</span>
+          <div><h3>1K+</h3><p>Community Members</p></div>
+        </div>
+        <div class="community-cta-box">
+          <div class="avatar-stack">
+            <span>👩</span><span>👨</span><span>👩‍🦰</span>
+          </div>
+          <p>Join our community and be part of something great.</p>
+          <button class="btn btn-primary">Join Community →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pre-Footer Banner -->
+  <section class="pre-footer-banner">
+    <div class="container cta-banner-inner">
+      <div class="banner-left">
+        <div class="banner-logo">
+          <div class="logo-box">✓</div>
+          <strong>Yadino</strong>
+        </div>
+        <p>An open source project by the developer community.</p>
+      </div>
+
+      <div class="banner-center">
+        <h3>Ready to get started?</h3>
+        <p>Create your free account and start organizing your life today.</p>
+        <button class="btn btn-white">Get Started Now →</button>
+      </div>
+
+      <div class="banner-right">
+        <span class="follow-label">Follow us</span>
+        <div class="social-links">
+          <a href="#" title="GitHub">🌐</a>
+          <a href="#" title="Twitter/X">𝕏</a>
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="Telegram">✈️</a>
+        </div>
+        <div class="hand-doodle doodle-banner">Star us on GitHub! ⭐</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <p>© 2025 Yadino. Open Source Project.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#community">Community</a>
+        <a href="#docs">Docs</a>
+      </div>
+      <p>Made with <span style="color: #ef4444;">❤</span> by developers</p>
+    </div>
+  </footer>
+
+  <!-- Search Modal -->
+  <div class="search-modal-overlay" id="searchModal">
+    <div class="search-modal-card">
+      <div class="modal-input-wrap">
+        🔍 <input type="text" id="modalSearchInput" placeholder="Search tasks, documents, projects...">
+        <span class="esc-badge">ESC</span>
+      </div>
+      <div class="modal-results">
+        <small>Quick Links</small>
+        <a href="#features">✨ Explore Features</a>
+        <a href="#community">👥 GitHub Community</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
